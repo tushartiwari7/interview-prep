@@ -9,4 +9,4 @@ And Every Box consist of 4 parts:
 - Border Area
 - Margin Area
 
-> read more about [box-sizing](./box-sizing)
+> read more about [box-sizing](./box-sizing.md)
