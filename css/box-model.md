@@ -8,3 +8,5 @@ And Every Box consist of 4 parts:
 - Padding Area
 - Border Area
 - Margin Area
+
+> read more about [box-sizing](./box-sizing)
