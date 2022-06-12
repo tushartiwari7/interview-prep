@@ -17,7 +17,7 @@ There are many ways to do this:
 1. `display: flex/grid`
 2. `display: flow-root`
 3. `display: inline-block`
-4. `position: absolute/fixed`
-5. overflow: anything except `visible/clip`
+4. `position: absolute/fixed`.
+5. overflow: anything except `visible/clip`.
 
-> out of this `display: flex` has worked best for me most of the times.
+> out of this `display: flex` has worked best for and worked most of the times.
