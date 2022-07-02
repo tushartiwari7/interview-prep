@@ -24,3 +24,11 @@
 //   var a = 5;
 //   let b = 7;
 // })();
+
+// var a = 100;
+{
+  debugger;
+  console.log(a);
+  var a = 10;
+  let b = 78;
+}

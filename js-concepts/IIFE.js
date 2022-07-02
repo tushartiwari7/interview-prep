@@ -22,11 +22,12 @@ var user = "Tushar";
 // })(user);
 
 // EX 3: multiple functions inside IIFE
-((function abc(name = "raju") {
+((function (name = "raju") {
   console.log("name", name);
 },
 (age = 28) => {
   console.log("age", age);
   debugger;
 })("user"));
-//
+
+// Doesn't works because first function will get defined but there's no possible way to call it so it remains useless.
