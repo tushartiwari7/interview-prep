@@ -1,28 +1,31 @@
 // implement a stopwatch with stop, start, reset features.
 
-function MyLocalStorage() {
-  debugger;
-  const getItem = (key) => {
-    return this[key];
-  };
+class MyLocalStorage {
+  constructor() {
+    debugger;
+    const getItem = (key) => {
+      return this[key];
+    };
 
-  const setItem = (key, value, timeLimit = 1000) => {
-    this[key] = value;
-    setTimeout(() => {
-      delete this[key];
-    }, timeLimit);
-  };
+    const setItem = (key, value, timeLimit = 1000) => {
+      this[key] = value;
+      setTimeout(() => {
+        delete this[key];
+      }, timeLimit);
+    };
 
-  this.get = getItem;
-  this.set = setItem;
+    this.get = getItem;
+    this.set = setItem;
+  }
 }
 
 const localStorageInstance = new MyLocalStorage();
 
+localStorageInstance.get = "de";
+
 const inputEl = document.getElementById("input");
 const outputEl = document.getElementById("output");
 let timerId;
-const x = 5;
 const startTimer = () => {
   if (timerId) return;
   timerId = setInterval(() => {
@@ -59,3 +62,12 @@ inputEl.addEventListener("click", (e) => {
       break;
   }
 });
+
+function test(a, b) {
+  const local = 4;
+  let loc = 66;
+  var c =
+    "constructor  constructor public  constructor public constructor public constru";
+  debugger;
+}
+test(1, "fer");
