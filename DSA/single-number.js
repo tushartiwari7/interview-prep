@@ -41,5 +41,5 @@ var singleNum = (nums) => {
 
 // TESTS
 console.log(singleNum([2, 2, 1]));
-console.log(singleNum([4, 1, 2, 1, 2]));
+console.log(singleNum([4, 1, 2, 2, 1]));
 console.log(singleNum([1]));
