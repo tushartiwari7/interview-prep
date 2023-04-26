@@ -9,4 +9,5 @@ for (let index = 0; index < str.length; index++) {
     ref = ref.child;
   } else ref.value = (ref.value ?? "") + char;
 }
+
 console.log(obj);
